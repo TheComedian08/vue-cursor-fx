@@ -354,13 +354,13 @@ export default class CursorFx {
 
     enterHidden() {
 
-        this.DOM.el.style.visibility = 'hidden';
+        this.DOM.el.style.opacity = '0';
 
     }
 
     leaveHidden() {
 
-        this.DOM.el.style.visibility = 'visible';
+        this.DOM.el.style.opacity = '';
 
     }
 
